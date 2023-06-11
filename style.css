@@ -1,0 +1,68 @@
+body{
+    background: darkslateblue;
+}
+
+.imgBox{
+    background-image: url('photo.png');
+    position: relative;
+    top: 5px;
+    left: 7px;
+    height: 276px;
+    width: 183px;
+    cursor: pointer;
+}
+
+.whiteBox{
+    display: inline-block;
+    height: 276px;
+    width: 183px;
+    margin: 10px;
+    background-color: white;
+    border: 3px black solid;
+}
+
+.hold{
+    border: solid red 4px;
+}
+
+.dashed{
+    background: rgb(214, 206, 206);
+    border-style: dashed;
+}
+
+.hide{
+    display: none;
+
+}
+@media (max-width: 600px) {
+    .imgBox {
+      height: 276px;
+      width: 183px;
+      top: 3px;
+      left: 4px;
+    }
+  }
+  
+  .hold {
+    border: solid red 4px;
+  }
+  
+  .dashed {
+    background: rgb(214, 206, 206);
+    border-style: dashed;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
